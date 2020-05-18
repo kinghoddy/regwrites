@@ -8,8 +8,14 @@
     "start": "next start"
   },
   "dependencies": {
+    "animate.css": "^4.1.0",
+    "bootstrap": "^4.5.0",
+    "jquery": "^3.5.1",
     "next": "9.4.0",
     "react": "16.13.1",
-    "react-dom": "16.13.1"
+    "react-dom": "16.13.1",
+    "scroll-out": "^2.2.8",
+    "simple-parallax-js": "^5.4.0",
+    "wow.js": "^1.2.2"
   }
 }
