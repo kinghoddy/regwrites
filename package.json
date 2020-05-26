@@ -14,6 +14,7 @@
     "next": "9.4.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-scroll-parallax": "^2.3.2",
     "scroll-out": "^2.2.8",
     "simple-parallax-js": "^5.4.0",
     "wow.js": "^1.2.2"

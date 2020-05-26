@@ -3,8 +3,8 @@ import Link from 'next/link'
 
 
 export default props => {
-    return <React.Fragment> 
-        <nav className="toolbar navbar-expand navbar sticky-top navbar-dark ">
+    return <React.Fragment>
+        <nav className={"fixed-top toolbar navbar-expand-lg navbar navbar-dark "}>
             <Link href="/">
                 <a className="navbar-brand">
                     <img alt="" src='/logo_text.png' />
@@ -27,13 +27,13 @@ export default props => {
                         <Link href="/">
                             <a className="nav-link"> Home</a>
                         </Link>
-                        </li>
+                    </li>
                     <li className="nav-item ">
 
                         <Link href="/">
                             <a className="nav-link">Blog</a>
                         </Link>
-                        </li>
+                    </li>
                     <li className="nav-item ">
 
                         <Link href="/">
@@ -52,11 +52,13 @@ export default props => {
         </nav>
         <style jsx>{`
         .toolbar{
-background : #25a
+            background : ${props.noBg ? 'none' : 'rgba(50 , 50 , 150 , .6)'}; 
+            backdrop-filter :${props.noBg ? 'none' : 'blur(2rem)'};
         }
         .toolbar img {
-            height : 5rem
+            height : ${props.noBg ? '6rem' : '3rem'};
+            transition : .3s;
         }
-        `} </style>
+    `} </style>
     </React.Fragment>
 }
