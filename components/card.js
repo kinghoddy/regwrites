@@ -12,6 +12,7 @@ export default props => {
                box-shadow : 0 10px 30px rgba(0,0,0,.3);
                border-radius : 12px;
                overflow : hidden;
+               background : #000;
                position : relative;
                display : flex;
                align-items : center;
@@ -31,6 +32,7 @@ export default props => {
                left : 0;
                object-fit : cover;
                width : 100%;
+               opacity : 1;
                height : 100%;
            }
        `}

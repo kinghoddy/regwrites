@@ -12,23 +12,28 @@ class MyDocument extends Document {
         return (
             <Html>
                 <Head>
+                    <script data-ad-client="ca-pub-8868357595839586" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
                     <link href="https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Josefin+Sans:wght@400;700&family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet"></link>
                     <link rel="stylesheet" href="/css/bootstrap.min.css" />
                     <link rel="stylesheet" href="/css/animate.min.css" />
+                    <link rel="stylesheet" href="/iconfont/material-icons.css" />
                     <link rel="stylesheet" href="/fontawesome/css/fontawesome.min.css" />
                     <link rel="stylesheet" href="/fontawesome/css/all.min.css" />
-                    <link rel="shortcut icon" href="/logo.png" />
+                    <link rel="shortcut icon" href="/favicon.png" />
                     <link rel="stylesheet" href="/css/index.css" />
                     <script src="/js/jquery.js"></script>
                     <script src="/js/wow.min.js"></script>
                     <script src="/js/bootstrap.min.js"></script>
                     <script src="/js/bootstrap.bundle.min.js"></script>
+                    <script>
+                        new WOW().init()
+                    </script>
                 </Head>
                 <body>
                     <Main />
                     <NextScript />
                 </body>
-
+                <script async src="https://static.addtoany.com/menu/page.js"></script>
             </Html>
         )
     }

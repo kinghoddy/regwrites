@@ -1,6 +1,21 @@
 body {
   font-family: "Montserrat", sans-serif;
   font-weight: 400;
+  font-size: 0.9rem;
+}
+@media only screen and (min-width: 760px) {
+  body {
+    padding: 20px;
+  }
+}
+html {
+  scroll-behavior: smooth;
+}
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: #038;
 }
 h1,
 h2,
@@ -15,7 +30,11 @@ h6 {
   font-family: "Chelsea Market", cursive;
 }
 a {
-  font-family: "Josefin Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+}
+a:hover {
+  text-decoration: none;
 }
 
 /* 
